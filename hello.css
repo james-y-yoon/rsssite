@@ -1,1 +1,188 @@
+*{
+    margin: 0px; 
+}
+.top-bar{
+    background-color: #3C4856; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    font-family: 'Overpass Mono', monospace;
 
+}
+.top-rssla{
+    color: #F2FAFF; 
+    font-size: 48px; 
+    padding: 10px; 
+}
+.menu{
+    display: flex; 
+    flex-direction: row; 
+    color: #F2FAFF; 
+    width: 40%; 
+    justify-content: space-around; 
+    font-size: 20px; 
+    margin-top: auto;
+    margin-bottom: auto; 
+}
+.body-1{
+    background-color: #F2FAFF; 
+    padding: 20px; 
+}
+.body-1-title{
+    width: 70%; 
+    background-color: #0B3C5D;  
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.body-1-rssla{
+    font-size: 144px; 
+    color: #F2FAFF; 
+    font-family: 'Overpass Mono', monospace;
+    text-align: center; 
+}
+.body-1-rssla-text{
+    color: #F2FAFF;
+    text-align: center; 
+    font-family: 'Libre Baskerville', serif;
+    font-weight: lighter; 
+    font-size: 30px; 
+    padding: 10px; 
+}
+.body-1-text{
+    padding: 20px; 
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px; 
+    text-align: center; 
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.button-wrap{
+    text-align: center; 
+}
+.body-1-button{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #3C4856; 
+    border-radius: 10px; 
+    border: 1px solid #000000;
+    font-size: 24px; 
+    padding-left: 10%; 
+    padding-right: 10%; 
+    padding-top: 1%; 
+    padding-bottom: 1%; 
+    color: white; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.body-2{
+    background-color: #0B3C5D; 
+    padding: 20px; 
+}
+.body-2-title-wrap{
+    padding: 20px; 
+}
+.body-2-title{
+    font-family: 'Overpass Mono', monospace;
+    font-size: 260%; 
+    text-align: center; 
+    color: #F2FAFF;
+    background-color: #3C4856; 
+    width: 45%;
+    box-shadow: 10px 13px #FFEDCB;
+}
+.body-2-text-1{
+    font-size: 20px; 
+    font-family: 'Nunito Sans', sans-serif;
+    color: #F2FAFF;
+    width: 80%; 
+    background-color: #3C4856;
+    padding: 20px; 
+    margin: 20px; 
+}
+.body-2-text-2{
+    font-size: 20px; 
+    font-family: 'Nunito Sans', sans-serif;
+    color: #0B3C5D;
+    width: 60%; 
+    background-color: #FFEDCB;
+    padding: 20px; 
+    margin: 20px;  
+}
+.body-3{
+    padding: 20px; 
+    background-color: #F2FAFF;
+}
+.pillar-wrap{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly; 
+}
+.pillar{
+    width: 25%; 
+    text-align: center; 
+    background-color: #0B3C5D; 
+    padding: 15px; 
+}
+.pillar-text-1{
+    font-family: 'Overpass Mono', monospace;
+    color: white; 
+    font-size: 36px; 
+}
+.pillar-text-2{
+    font-family: 'Libre Baskerville', serif;
+    color: #FFEDCB; 
+    font-size: 36px; 
+}
+.pillar-text-3{
+    font-family: 'Nunito Sans', sans-serif;
+    color: white; 
+    font-size: 18px; 
+    padding: 15px; 
+}
+.body-3-title-wrap{
+    padding: 20px; 
+}
+.body-3-title{
+    font-family: 'Overpass Mono', monospace;
+    font-size: 260%; 
+    text-align: center; 
+    color: #F2FAFF;
+    background-color: #3C4856; 
+    width: 45%;
+    box-shadow: 10px 13px #009AFA;
+}
+.sponsors{
+    background-color: #A0ACBD; 
+    padding: 20px; 
+}
+.sponsors-title{
+    background-color: #3C4856; 
+    color: white; 
+    width: 30%; 
+    font-size: 260%; 
+    text-align: center; 
+    font-family: 'Overpass Mono', monospace;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.sponsor-1{
+    background-color: #C4C4C4; 
+    width: 50%; 
+    font-size: 24px; 
+    color: #009AFA; 
+    padding: 20px; 
+    margin: 20px; 
+    font-family: 'Overpass Mono', monospace;
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.footer{
+    display: flex; 
+    flex-direction: row;
+    background-color: #0B3C5D; 
+    color: white; 
+    font-family: 'Overpass Mono', monospace;
+    justify-content: space-around; 
+    padding: 20px; 
+}
