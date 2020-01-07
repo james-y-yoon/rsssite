@@ -2,57 +2,78 @@
     margin: 0px; 
 }
 .top-bar{
-    background-color: #3C4856; 
+    background-color: black; 
     display: flex; 
     flex-direction: row; 
     justify-content: space-between; 
-    font-family: 'Overpass Mono', monospace;
+    font-family: 'Playfair Display', monospace;
 
 }
 .top-rssla{
     color: #F2FAFF; 
     font-size: 48px; 
     padding: 10px; 
+    font-weight: 400; 
 }
 .menu{
     display: flex; 
     flex-direction: row; 
     color: #F2FAFF; 
-    width: 40%; 
+    width: 60%; 
     justify-content: space-around; 
-    font-size: 20px; 
+    font-size: 18px; 
     margin-top: auto;
     margin-bottom: auto; 
 }
+.menu-item:hover{
+    color:white; 
+    text-decoration: underline; 
+    cursor: pointer;
+}
 .body-1{
-    background-color: #F2FAFF; 
+    /* background-color: #F2FAFF;  */
     padding: 20px; 
+    padding-top: 100px; 
+    padding-bottom: 250px; 
+    background-color: rgba(0,0,0,0.7); 
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7), 
+        rgba(0,0,0,0.7)
+      ), url("http://rssla.org/img/banner-bg1.jpg");
+    background-size: cover;  
 }
 .body-1-title{
     width: 70%; 
-    background-color: #0B3C5D;  
-    margin-left: auto; 
-    margin-right: auto; 
+    /* background-color: #0B3C5D;   */
+    /* margin-left: auto; 
+    margin-right: auto;  */
 }
 .body-1-rssla{
-    font-size: 144px; 
-    color: #F2FAFF; 
+    font-size: 100px; 
+    /* color: #F2FAFF;  */
     font-family: 'Overpass Mono', monospace;
-    text-align: center; 
+    margin-left: 15%; 
+    color: white; 
+    /* text-align: center;  */
 }
 .body-1-rssla-text{
-    color: #F2FAFF;
-    text-align: center; 
+    /* color: #F2FAFF; */
+    /* text-align: center;  */
+    margin-left: 15%; 
     font-family: 'Libre Baskerville', serif;
     font-weight: lighter; 
     font-size: 30px; 
-    padding: 10px; 
+    color: white; 
+    /* border-bottom: 1px solid #000000;  */
+    /* padding: 10px;  */
 }
+
 .body-1-text{
     padding: 20px; 
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 24px; 
-    text-align: center; 
+    font-family: 'Libre Baskerville', serif;    
+    font-size: 18px; 
+    color: white; 
+    /* text-align: center;  */
     width: 80%; 
     margin-left: auto; 
     margin-right: auto; 
@@ -61,22 +82,29 @@
     text-align: center; 
 }
 .body-1-button{
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Overpass Mono', sans-serif;
     background-color: #3C4856; 
     border-radius: 10px; 
     border: 1px solid #000000;
-    font-size: 24px; 
-    padding-left: 10%; 
-    padding-right: 10%; 
+    font-size: 16px; 
+    padding-left: 3%; 
+    padding-right: 3%; 
     padding-top: 1%; 
     padding-bottom: 1%; 
     color: white; 
     margin-left: auto; 
     margin-right: auto; 
 }
+
+.body-1-button:hover{
+    text-decoration: underline; 
+    cursor: pointer;
+}
 .body-2{
-    background-color: #0B3C5D; 
+    /* background-color: #0B3C5D;  */
     padding: 20px; 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
 }
 .body-2-title-wrap{
     padding: 20px; 
@@ -85,53 +113,103 @@
     font-family: 'Overpass Mono', monospace;
     font-size: 260%; 
     text-align: center; 
-    color: #F2FAFF;
-    background-color: #3C4856; 
+    /* color: #F2FAFF; */
+    /* background-color: #3C4856;  */
     width: 45%;
-    box-shadow: 10px 13px #FFEDCB;
+    /* box-shadow: 10px 13px #FFEDCB; */
 }
 .body-2-text-1{
     font-size: 20px; 
-    font-family: 'Nunito Sans', sans-serif;
-    color: #F2FAFF;
+    font-family: 'Libre Baskerville', serif;    
     width: 80%; 
-    background-color: #3C4856;
     padding: 20px; 
     margin: 20px; 
+    border-left: 1px solid black; 
+}
+.body-2-text-2-wrap{
+    width: 93%; 
 }
 .body-2-text-2{
-    font-size: 20px; 
-    font-family: 'Nunito Sans', sans-serif;
-    color: #0B3C5D;
-    width: 60%; 
-    background-color: #FFEDCB;
+    font-size: 16px; 
+    font-family: 'Libre Baskerville', serif;   
+    border-left: 1px solid black; 
+    text-align: left; 
+    width: 80%; 
     padding: 20px; 
+    padding-left: 30px;  
     margin: 20px;  
+    margin-left: 13%; 
+    color: #0B3C5D; 
 }
+.img-row{
+    display: flex; 
+    flex-direction: row; 
+    justify-items: auto; 
+}
+
+.img-1{
+    width: 30%; 
+    height: auto; 
+    border-right: 1px solid black; 
+    padding: 10px; 
+    padding-right: 15px; 
+}
+.img-2{
+    width: 30%; 
+    padding: 10px; 
+    height: auto; 
+}
+
 .body-3{
     padding: 20px; 
-    background-color: #F2FAFF;
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    /* background-color: #F2FAFF; */
 }
-.pillar-wrap{
+.body-3-wrap{
+    display: flex; 
+    flex-direction: row; 
+}
+.body-3-title{
+    font-family: 'Overpass Mono', monospace;
+    font-size: 260%; 
+    text-align: center; 
+    margin: 10px; 
+    margin-top: auto; 
+    margin-bottom: auto; 
+    margin-left: 5%; 
+    width: 13%; 
+    height: auto; 
+    /* color: #F2FAFF; */
+    /* background-color: #3C4856;  */
+    /* width: 45%; */
+    /* box-shadow: 10px 13px #009AFA; */
+}
+/* .pillar-wrap{
     display: flex; 
     flex-direction: row; 
     justify-content: space-evenly; 
-}
+} */
 .pillar{
-    width: 25%; 
+    /* width: 25%;  */
     text-align: center; 
-    background-color: #0B3C5D; 
-    padding: 15px; 
+    background-color: #D9E9FF; 
+    margin: 15px; 
 }
 .pillar-text-1{
-    font-family: 'Overpass Mono', monospace;
-    color: white; 
-    font-size: 36px; 
+    font-family: 'Libre Baskerville', serif;
+    color: black; 
+    font-size: 30px; 
+    padding: 20px; 
+    padding-top: 30px; 
+    text-align: right; 
 }
 .pillar-text-2{
     font-family: 'Libre Baskerville', serif;
-    color: #FFEDCB; 
-    font-size: 36px; 
+    color: black; 
+    font-size: 18px; 
+    text-align: right; 
+    padding: 20px; 
 }
 .pillar-text-3{
     font-family: 'Nunito Sans', sans-serif;
@@ -139,31 +217,27 @@
     font-size: 18px; 
     padding: 15px; 
 }
-.body-3-title-wrap{
-    padding: 20px; 
-}
-.body-3-title{
-    font-family: 'Overpass Mono', monospace;
-    font-size: 260%; 
-    text-align: center; 
-    color: #F2FAFF;
-    background-color: #3C4856; 
-    width: 45%;
-    box-shadow: 10px 13px #009AFA;
-}
+
+
 .sponsors{
-    background-color: #A0ACBD; 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    /* background-color: #A0ACBD;  */
     padding: 20px; 
 }
 .sponsors-title{
-    background-color: #3C4856; 
-    color: white; 
+    /* background-color: #3C4856;  */
+    /* color: white;  */
     width: 30%; 
     font-size: 260%; 
-    text-align: center; 
+    text-align: left; 
     font-family: 'Overpass Mono', monospace;
-    margin-left: auto; 
-    margin-right: auto; 
+    margin-left: 10px; 
+}
+.sponsor-1-wrap{
+    border-left: 1px solid black; 
+    margin-left: 15%; 
+    padding-left: 8%; 
 }
 .sponsor-1{
     background-color: #C4C4C4; 
@@ -174,15 +248,14 @@
     margin: 20px; 
     font-family: 'Overpass Mono', monospace;
     text-align: center; 
-    margin-left: auto; 
-    margin-right: auto; 
 }
 .footer{
     display: flex; 
     flex-direction: row;
-    background-color: #0B3C5D; 
+    background-color: black; 
     color: white; 
-    font-family: 'Overpass Mono', monospace;
+    font-family: 'Libre Baskerville', serif;
     justify-content: space-around; 
     padding: 20px; 
+    font-size: 16px; 
 }
