@@ -1,6 +1,7 @@
 import React from 'react';
 import './hello.css'; 
 import Header from './components/Header/Header'; 
+import Footer from './components/Footer/Footer'; 
 
 function App() {
   return (
@@ -92,13 +93,8 @@ function App() {
               <div class='sponsor-1'>Blueprint</div>
           </div>
       </div>
-      {/* <!-- FOOTER --> */}
-      <div class='footer'>
-          <div class='footer-1'>home<br/>about<br/>fb group</div>
-          <div class='footer-1'>president<br/>communications<br/>security</div>
-          <div class='footer-1'>DESIGN: James Yoon <br/> CODE: James Yoon, Chelsey Wang, blahb;lah </div>
-      </div>
-
+    <Footer/>
+      
 
     </div>
   );
