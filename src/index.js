@@ -4,13 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
-import Prospectives from './pages/Prospectives/Prospectives'; 
+import Prospectives from './pages/Prospectives/Prospectives';
+import Board from './pages/Board/Board';  
 
 const routing = (
     <Router>
         <Switch>
             <Route exact path='/' component={App} />
             <Route exact path='/prospectives' component={Prospectives} />
+            <Route exact path='/board' component={Board} />
         </Switch>
     </Router>
 )
